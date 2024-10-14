@@ -39,6 +39,7 @@ Validator.cep(CEP)
 
 ## Teste por CLI
 Uso: npx mask-validation-br *tipo* *valor*
+
 Tipos suportados: celular, cpf, cnpj, cep
 
 ### Ex
