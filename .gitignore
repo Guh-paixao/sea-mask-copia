@@ -1,0 +1,6 @@
+# Dependências
+node_modules/
+
+# Diretórios de saída do TypeScript
+dist/
+build/
