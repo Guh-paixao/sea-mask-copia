@@ -74,7 +74,7 @@ npx mask-validation-br cpf 12345678900
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT](https://github.com/Guh-paixao/mask-validation-br/blob/Develop/LICENSE).
+Este projeto está licenciado sob a [MIT](https://github.com/Guh-paixao/mask-validation-br/blob/main/LICENSE).
 
 ## Contato
 
