@@ -1,6 +1,6 @@
 {
   "name": "mask-validation-br",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "bin": {
     "mask-validation-br": "dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guh-paixao/mask-validation-br.git"
   },
   "keywords": [
     "brasil",
