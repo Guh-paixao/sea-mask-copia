@@ -1,6 +1,6 @@
-# Mask Validation BR
+# Sea Mask Validation
 
-**Mask Validation BR** é uma biblioteca em Typescript leve e eficiente para mascaramento e validação de dados brasileiros. Inclui suporte para validação de números de celular, CPF, CNPJ e CEP, oferecendo também funcionalidades de formatação e validação regional de números de celular com base no DDD.
+**Sea Mask Validation** é uma biblioteca em Typescript leve e eficiente para mascaramento e validação de dados brasileiros. Inclui suporte para validação de números de celular, CPF, CNPJ e CEP, oferecendo também funcionalidades de formatação e validação regional de números de celular com base no DDD.
 
 ## Recursos
 - **Máscara e validação de celular** (com validação de DDD)
@@ -13,11 +13,11 @@
 ## Instalação
 Instale a biblioteca via npm:
 ```bash
-npm install mask-validation-br
+npm install sea-mask-validation
 ```
 ## Uso
 ```js
-import { Validator, Masker } from "mask-validation-br";
+import { Validator, Masker } from "sea-mask-validation";
 
 const CPF = '12345678909';
 const CNPJ = '12345678000195'
@@ -38,13 +38,13 @@ Validator.cep(CEP)
 ```
 
 ## Teste por CLI
-Uso: npx mask-validation-br *tipo* *valor*
+Uso: npx sea-mask-validation *tipo* *valor*
 
 Tipos suportados: celular, cpf, cnpj, cep
 
 ### Ex
 ```bash
-npx mask-validation-br cpf 12345678900
+npx sea-mask-validation cpf 12345678900
 ```
 
 ## DDDs Listados
@@ -75,7 +75,7 @@ npx mask-validation-br cpf 12345678900
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT](https://github.com/Guh-paixao/mask-validation-br/blob/main/LICENSE).
+Este projeto está licenciado sob a [MIT](https://github.com/Guh-paixao/sea-mask-validation/blob/main/LICENSE).
 
 ## Contato
 

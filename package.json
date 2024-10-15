@@ -1,27 +1,18 @@
 {
-  "name": "mask-validation-br",
-  "version": "2.2.3",
-  "description": "Pacote de mascará e validação de CPF, CNPJ, CEP, Telefone, para avalização.",
+  "name": "sea-mask-validation",
+  "version": "1.0.0",
+  "description": "Pacote de mascará e validação de CPF, CNPJ, CEP, Telefone, para teste de avaliação.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "files": [
     "/dist"
   ],
-  "keywords": [
-    "brasil",
-    "mascara",
-    "validacao",
-    "cpf",
-    "cnpj",
-    "cep",
-    "telefone",
-    "typescript"
-  ],
+  "keywords": [],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "mask-validation-br": "dist/cli.js"
+    "sea-mask-validation": "dist/cli.js"
   },
   "author": "Gustavo Paixão",
   "repository": {
