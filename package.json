@@ -1,18 +1,12 @@
 {
   "name": "mask-validation-br",
   "version": "2.2.3",
+  "description": "Pacote de mascará e validação de CPF, CNPJ, CEP, Telefone, para avalização.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "mask-validation-br": "dist/cli.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Guh-paixao/mask-validation-br.git"
-  },
+  "files": [
+    "/dist"
+  ],
   "keywords": [
     "brasil",
     "mascara",
@@ -23,9 +17,18 @@
     "telefone",
     "typescript"
   ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mask-validation-br": "dist/cli.js"
+  },
   "author": "Gustavo Paixão",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guh-paixao/mask-validation-br.git"
+  },
   "license": "ISC",
-  "description": "Pacote de mascará e validação de CPF, CNPJ, CEP, Telefone, para avalização.",
   "devDependencies": {
     "@types/node": "^22.7.5",
     "typescript": "^5.6.3"
